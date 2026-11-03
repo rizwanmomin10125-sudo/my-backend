@@ -1,0 +1,21 @@
+### Register
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+
+{
+  "fullName": "Owner Demo",
+  "email": "owner@capital.com",
+  "mobileNo": "9876543210",
+  "password": "Owner@123",
+  "roleName": "Owner"
+}
+
+### Login
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "owner@capital.com",
+  "password": "Owner@123",
+  "roleName": "Owner"
+}
